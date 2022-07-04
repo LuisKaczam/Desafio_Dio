@@ -1,2 +1,2 @@
-# Desafio_Dio
-Primeiro desafio de projeto sobre Git/Github
+# Página Web básica com Html, Tailwind e Bootstrap
+Utilizando Frameworks na estilização de páginas Web
