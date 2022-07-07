@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#btnAdiciona{
+    border: 1px solid cornflowerblue;
+    background-color: azure;
+    font-size: 14px;
+    margin-left: 1.8rem;
+    border-radius: 15%;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
